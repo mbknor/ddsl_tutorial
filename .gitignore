@@ -1,0 +1,14 @@
+logs
+project/project
+project/target
+target
+tmp
+.history
+dist
+.idea
+.idea_modules
+.settings
+deploy/loadBalancerServer/ddslConfigWriter
+RUNNING_PID
+deploy/apiServer1
+deploy/apiServer2
