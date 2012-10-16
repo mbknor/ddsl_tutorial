@@ -9,13 +9,6 @@ In this tutorial we are going to setup an nginx load balancer in front of a web 
 
 This tutorial is only going to use one physical server - your own - and will "emulate" different servers by starting servers on different ports.
 
-A DDSL-enabled application will broadcast its presense when it starts up. It will identify itself with a ServiceID (environment, type, name, version) and will 
- and DDSL will automatically remove it when the application quits, crashes or goes offline due to network issues. Other applications can then find applications by querying DDSL for it. When querying DDSL for applications
-
-This tutorial will show you how to set up a system with any number of webapp-servers spread around multiple "physical" servers
-
-In this tutorial we are going to configure a server- and application-setup where the "only" predefined configuration is a shared ZooKeeper network. Apache ZooKeeper is a robust distributed information-storage with no single point of failure; it continues to operate as long as more than half of the ZooKeeper nodes are working.
-
 ZooKeeper
 ==============
 When using DDSL - everything is cordinated via ZooKeeper. We can set up a ZooKeeper network with any number of nodes, and as long as at least half of the nodes work, the network works. Sinse DDSL stores all needed info in ZooKeeper we have no single point of failure.
