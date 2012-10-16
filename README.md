@@ -64,10 +64,10 @@ As you can see, our "apiServer1" is up and running listening on port 10000. It h
 
 When the app started, it told DDSL about its pressense. When it registered to DDSL, it suplied the following info about the service:
 
-** Environment: test
-** Service-Type: http
-** Service-name: ApiServer
-** Service-version: 1.0
+* Environment: test
+* Service-Type: http
+* Service-name: ApiServer
+* Service-version: 1.0
 
 All this information is 100% chosen by the application itself.
 
